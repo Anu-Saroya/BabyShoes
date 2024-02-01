@@ -1,0 +1,206 @@
+2024-01-18T20:24:57+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 249856 bytes) in /var/www/babyshoes/wp-includes/class-wpdb.php on line 1533
+
+2024-01-18T20:26:36+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 61440 bytes) in /var/www/babyshoes/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2024-01-18T20:26:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 61440 bytes) in /var/www/babyshoes/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2024-01-18T20:26:37+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 61440 bytes) in /var/www/babyshoes/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2024-01-18T20:26:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 61440 bytes) in /var/www/babyshoes/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2024-01-18T20:26:38+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 61440 bytes) in /var/www/babyshoes/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2024-01-18T20:26:48+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 331776 bytes) in /var/www/babyshoes/wp-includes/class-wpdb.php on line 3330
+
+2024-01-18T20:27:44+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 61440 bytes) in /var/www/babyshoes/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2024-01-18T20:33:25+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 221184 bytes) in /var/www/babyshoes/wp-includes/functions.php on line 4247
+
+2024-01-18T20:33:26+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 221184 bytes) in /var/www/babyshoes/wp-includes/functions.php on line 4247
+
+2024-01-18T20:33:27+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 131072 bytes) in /var/www/babyshoes/wp-includes/functions.php on line 4410
+
+2024-01-18T20:35:21+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /var/www/babyshoes/wp-content/plugins/woocommerce-payments/includes/admin/class-wc-rest-payments-reader-controller.php on line 18
+
+2024-01-18T20:36:08+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 352256 bytes) in /var/www/babyshoes/wp-includes/class-wpdb.php on line 1275
+
+2024-01-18T20:36:31+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 61440 bytes) in /var/www/babyshoes/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2024-01-18T20:36:43+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 352256 bytes) in /var/www/babyshoes/wp-includes/class-wpdb.php on line 1275
+
+2024-01-18T20:38:51+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 40960 bytes) in /var/www/babyshoes/wp-includes/rest-api/class-wp-rest-server.php on line 835
+
+2024-01-18T20:40:32+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 61440 bytes) in /var/www/babyshoes/wp-content/plugins/jetpack/vendor/jetpack-autoloader/class-php-autoloader.php on line 90
+
+2024-01-18T20:40:34+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 159744 bytes) in /var/www/babyshoes/wp-includes/functions.php on line 626
+
+2024-01-18T20:41:19+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 352256 bytes) in /var/www/babyshoes/wp-includes/class-wpdb.php on line 1275
+
+2024-01-18T21:05:07+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 /var/www/babyshoes/wp-admin/update-core.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+
+2024-01-18T21:05:11+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 /var/www/babyshoes/wp-admin/update-core.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+
+2024-01-18T21:05:16+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+
+2024-01-18T21:05:23+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 /var/www/babyshoes/wp-admin/customize.php(13): require_once('...')
+#12 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+
+2024-01-18T21:05:31+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 /var/www/babyshoes/wp-admin/customize.php(13): require_once('...')
+#12 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+
+2024-01-18T21:05:36+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 /var/www/babyshoes/wp-admin/index.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+
+2024-01-18T21:05:40+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 /var/www/babyshoes/wp-admin/index.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+
+2024-01-18T21:05:44+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 /var/www/babyshoes/wp-admin/index.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+
+2024-01-18T21:05:53+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+
+2024-01-18T21:05:57+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 /var/www/babyshoes/wp-admin/index.php(10): require_once('...')
+#12 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+

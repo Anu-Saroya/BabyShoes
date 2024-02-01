@@ -1,0 +1,65 @@
+2024-01-18T20:27:22+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2024-01-18T20:27:22+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2024-01-18T20:28:31+00:00 DEBUG POST: https://ads.tiktok.com/marketing_api/api/developer/app/create_auto_approve/
+
+{"business_platform":"PROD","smb_id":"tt4b_woocommerce_65a989ef8c2dahttpbabyshoesddnsnetwp-admin","smb_name":"WOO_COMMERCE","redirect_url":"http:\/\/babyshoes.ddns.net\/wp-admin\/"}
+ ajax: no
+2024-01-18T20:28:32+00:00 DEBUG Tt4b_Mapi_Class::create_open_source_app: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json
+X-Tt-Logid: 20240118202830A9CE188D5EDED30C8577,20240118202830A9CE188D5EDED30C8577
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+x-tt-trace-host: 016e92c4f4f32a9a7f9b769c6dfd91139faa4e5d4aae8001d77d9b53fda65ad7584653b80f4b231e85bb158aee72ffbf210f7b0deadf22e6c656bb4d698e80b1b80122f6affe2de004937eda311eee12b26e59a3d15ecc976dbcb0183be03ddf1cde7b65b42a59d63744792688cc573060
+x-tt-trace-id: 00-240118202830A9CE188D5EDED30C8577-1A16FC985CE652E0-00
+Server: TLB
+Content-Length: 233
+X-Origin-Response-Time: 101,184.28.235.70
+X-Akamai-Request-ID: eee7772.2b8383b3
+Date: Thu, 18 Jan 2024 20:28:32 GMT
+X-Cache: TCP_MISS from a23-220-106-7.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0.1-53785976) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a184-28-235-70.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0.1-53785976) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=219, origin; dur=101
+Server-Timing: inner; dur=96
+X-Parent-Response-Time: 317,23.220.106.7
+
+{"code":0,"msg":"ok","data":{"external_data_key":"11250af5-3a4f-45d6-a076-7da92fef5ca6","app_secret":"7986ee575f262d54a93e88131e05b5c1cb51889b","redirect_uri":"http:\/\/babyshoes.ddns.net\/wp-admin\/","app_id":"7325537932549292033"}}
+
+2024-01-18T20:28:32+00:00 DEBUG Tt4b_Menu_Class::tt4b_admin_menu_main: external_data: eyJleHRlcm5hbF9idXNpbmVzc19pZCI6InR0NGJfd29vY29tbWVyY2VfNjVhOTg5ZWY4YzJkYSIsImJ1c2luZXNzX3BsYXRmb3JtIjoiV09PX0NPTU1FUkNFIiwibG9jYWxlIjoiZW4iLCJ2ZXJzaW9uIjoiMS41IiwidGltZXN0YW1wIjoiMTcwNTYwOTcxMjAwMCIsInRpbWV6b25lIjoiR01ULTU6MDAiLCJjb3VudHJ5X3JlZ2lvbiI6IkNBIiwiZW1haWwiOiJhX2NyaXNwZWJhcmJpZXJpZGFjb0BmYXNoYXdlb25saW5lLmNhIiwiaW5kdXN0cnlfaWQiOiIyOTE0MDgiLCJzdG9yZV9uYW1lIjoiQmFieSBTaG9lcyIsImN1cnJlbmN5IjoiQ0FEIiwid2Vic2l0ZV91cmwiOiJodHRwOi8vYmFieXNob2VzLmRkbnMubmV0IiwiZG9tYWluIjoiaHR0cDovL2JhYnlzaG9lcy5kZG5zLm5ldCIsImFwcF9pZCI6IjczMjU1Mzc5MzI1NDkyOTIwMzMiLCJyZWRpcmVjdF91cmkiOiJodHRwOi8vYmFieXNob2VzLmRkbnMubmV0L3dwLWFkbWluLyIsImhtYWMiOiI5MTJmMzhiNWU3MmY4MDNmZTRmMmE1YzIyMWRmZmYyYTBkNjliYTRhZjU4Nzg1Y2MyYzBjN2U4ZDhiM2U4ZmQ0IiwiY2xvc2VfbWV0aG9kIjoicmVkaXJlY3RfaW5zaWRlX3Rpa3RvayIsImlzX2VtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc192ZXJpZmllZCI6dHJ1ZSwibmV0X2dtdiI6W3siaW50ZXJ2YWwiOiJMSUZFVElNRSIsIm1pbiI6MCwibWF4IjowLCJ1bml0IjoiQ1VSUkVOQ1kifV0sIm5ldF9vcmRlcl9jb3VudCI6W3siaW50ZXJ2YWwiOiJMSUZFVElNRSIsIm1pbiI6MCwibWF4IjowLCJ1bml0IjoiQ09VTlQifV0sInRlbnVyZSI6eyJtaW4iOjAsInVuaXQiOiJEQVlTIn0sImV4dHJhX2RhdGEiOiJ7XCJ2ZXJzaW9uXCI6XCIxLjAuMTVcIn0iLCJhZGRyZXNzXzEiOiIxMzAgRHVuZGFzIiwiYWRkcmVzc18yIjoiIiwiY2l0eSI6IkxvbmRvbiIsInN0YXRlIjoiIiwiemlwX2NvZGUiOiJONkcgMEE4In0=
+2024-01-18T20:29:22+00:00 DEBUG POST: https://business-api.tiktok.com/open_api/v1.2/tbp/business_profile/store/update/
+
+{"business_platform":"WOO_COMMERCE","external_business_id":"tt4b_woocommerce_65a989ef8c2da","net_gmv":[{"interval":"LIFETIME","max":0,"min":0,"unit":"CURRENCY"}],"net_order_count":[{"interval":"LIFETIME","max":0,"min":0,"unit":"COUNT"}],"tenure":{"min":0,"max":0,"unit":"DAYS"},"extra_data":"{\"version\":\"1.0.15\"}"}
+ ajax: no
+2024-01-18T20:29:23+00:00 DEBUG Tt4b_Mapi_Class::mapi_post: Response: 
+
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Content-Length: 103
+X-Api-Deprecation-Info: API for Business Version 1.3 is now live. To avoid disruption to your business, we recommend you migrate all calls to v1.3 as soon as possible. Please visit our migration guide for more details: https://ads.tiktok.com/marketing_api/docs?id=1740029169927169
+X-Domain-Change-Info: We have moved to the new domain business-api.tiktok.com for API services after the Platform Upgrade on 09/30/2021. Please update all of your requests with the new domain if you haven't done so already. For more information, please visit https://ads.tiktok.com/marketing_api/docs?rid=esb88xalm6m&id=1709207085043713
+X-Tt-Logid: 202401182029214CD2F59151BDE30E36A0
+x-tt-trace-host: 016e92c4f4f32a9a7f9b769c6dfd91139f7c0eae4669161921fa180510b8983bccf82be0b9efeb63d48d11f0e5bc4e257c331789880fed0d4e436ab3c702c75a6fe269d41289b5dc069b14f1aec4b8822e1798826f8480ad07bacdd9dbcf3df55f1a98354c8ee8627b0c1676f8ec74bcb0
+x-tt-trace-id: 00-2401182029214CD2F59151BDE30E36A0-1744AF9221546298-00
+Server: TLB
+X-Origin-Response-Time: 9,23.211.140.148
+X-Akamai-Request-ID: 275bfc09.2ce44c9b
+Expires: Thu, 18 Jan 2024 20:29:23 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Thu, 18 Jan 2024 20:29:23 GMT
+X-Cache: TCP_MISS from a23-43-242-124.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+Connection: close
+X-Cache-Remote: TCP_MISS from a23-211-140-148.deploy.akamaitechnologies.com (AkamaiGHost/11.4.0-53477943) (-)
+x-tt-trace-tag: id=16;cdn-cache=miss;type=dyn
+Server-Timing: cdn-cache; desc=MISS, edge; dur=233, origin; dur=9
+Server-Timing: inner; dur=4
+X-Parent-Response-Time: 239,23.43.242.124
+
+{"code":40104,"message":"The access_token is empty.","request_id":"202401182029214CD2F59151BDE30E36A0"}
+
+2024-01-18T20:31:54+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2024-01-18T20:31:54+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"
+2024-01-18T20:43:17+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: hit injectStartCheckout
+2024-01-18T20:43:17+00:00 DEBUG Tt4b_Pixel_Class::inject_start_checkout: Missing option "access_token"

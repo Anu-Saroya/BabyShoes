@@ -1,0 +1,1375 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 03:50:57
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |WINNT
+PHP VERSION_________: 7.4.30                                |7.4.30
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.30 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.54 (Win64) OpenSSL/1.1.1p PHP/7.4.30
+DOC ROOT____________: "C:/xampp/htdocs/Alineshop/backup"
+REQUEST URL_________: "http://localhost:8080/Alineshop/backup"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/Alineshop/backup"
+URL_NEW_____________: "http://localhost:8080/Alineshop/backup"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/Alineshop/backup/20230322_babyshoes_[HASH]_20230322154722_archive.zip"
+ARCHIVE SIZE________: 195.3MB
+CREATED_____________: 2023-03-22 15:47:22
+WP VERSION__________: 6.1.1
+DUP VERSION_________: 1.5.3.1
+LICENSE_____________: Free version
+DB VERSION__________: 10.4.25
+DB FILE SIZE________: 10.59MB
+DB TABLES___________: 96
+DB ROWS_____________: 6907
+URL HOME____________: http://localhost:8080/Alineshop
+URL CORE____________: http://localhost:8080/Alineshop
+URL CONTENT_________: http://localhost:8080/Alineshop/wp-content
+URL UPLOAD__________: http://localhost:8080/Alineshop/wp-content/uploads
+URL PLUGINS_________: http://localhost:8080/Alineshop/wp-content/plugins
+URL MU PLUGINS______: http://localhost:8080/Alineshop/wp-content/mu-plugins
+URL THEMES__________: http://localhost:8080/Alineshop/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/Alineshop
+PATH ABS____________: C:/xampp/htdocs/Alineshop
+PATH WPCONFIG_______: C:/xampp/htdocs/Alineshop
+PATH WPCONTENT______: C:/xampp/htdocs/Alineshop/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/Alineshop/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/Alineshop/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/Alineshop/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/Alineshop/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "localhost/Alineshop/"
+
+PLUGINS
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:facebook-for-woocommerce/facebook-for-woocommerce.php][ON:true ]  Facebook for WooCommerce
+PLUGIN [SLUG:google-listings-and-ads/google-listings-and-ads.php][ON:true ]  Google Listings and Ads
+PLUGIN [SLUG:jetpack/jetpack.php                               ][ON:true ]  Jetpack
+PLUGIN [SLUG:mailpoet/mailpoet.php                             ][ON:true ]  MailPoet
+PLUGIN [SLUG:pinterest-for-woocommerce/pinterest-for-woocommerce.php][ON:true ]  Pinterest for WooCommerce
+PLUGIN [SLUG:tiktok-for-business/tiktok-for-woocommerce.php    ][ON:true ]  TikTok
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:woocommerce-payments/woocommerce-payments.php     ][ON:true ]  WooCommerce Payments
+PLUGIN [SLUG:woocommerce-services/woocommerce-services.php     ][ON:true ]  WooCommerce Shipping & Tax
+PLUGIN [SLUG:wordpress-seo/wp-seo.php                          ][ON:true ]  Yoast SEO
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.30486]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.30588]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Alineshop/backup"
+--------------------------------------
+LOG-TIME[DELTA:   0.07420]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00066]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00017]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01757]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.07026]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00046]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+[PHP ERR][E_WARNING] MSG:mysqli_real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) [CODE:2|FILE:C:\xampp\htdocs\Alineshop\backup\dup-installer\classes\database\class.db.php|LINE:55]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: YES)[ERRNO:1045]
+
+INSTALLER ERROR:
+Unable to connect with the following parameters:
+HOST: "localhost"
+DBUSER: "root"
+DATABASE: NULL
+MESSAGE: Error: Access denied for user 'root'@'localhost' (using password: YES)
+
+
+      TEST "Host Connection" EXCEPTION: Unable to connect with the following parameters:<br/>HOST: "localhost"
+DBUSER: "root"
+DATABASE: NULL
+MESSAGE: Error: Access denied for user 'root'@'localhost' (using password: YES)
+	FILE:C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Utils\Log\Log.php[401]
+	TRACE:
+#0 C:\xampp\htdocs\Alineshop\backup\dup-installer\classes\database\class.db.functions.php(134): Duplicator\Installer\Utils\Log\Log::error('Unable to conne...')
+#1 C:\xampp\htdocs\Alineshop\backup\dup-installer\classes\validation\class.validation.database.service.php(72): DUPX_DB_Functions->dbConnection(Array)
+#2 C:\xampp\htdocs\Alineshop\backup\dup-installer\classes\validation\database-tests\class.validation.test.db.connection.php(26): DUPX_Validation_database_service->getDbConnection()
+#3 C:\xampp\htdocs\Alineshop\backup\dup-installer\classes\validation\class.validation.abstract.item.php(46): DUPX_Validation_test_db_connection->runTest()
+#4 C:\xampp\htdocs\Alineshop\backup\dup-installer\classes\validation\class.validation.manager.php(232): DUPX_Validation_abstract_item->test(true)
+#5 C:\xampp\htdocs\Alineshop\backup\dup-installer\classes\validation\class.validation.manager.php(205): DUPX_Validation_manager->runTests()
+#6 C:\xampp\htdocs\Alineshop\backup\dup-installer\ctrls\classes\class.ctrl.ajax.php(173): DUPX_Validation_manager->getValidateData()
+#7 C:\xampp\htdocs\Alineshop\backup\dup-installer\ctrls\classes\class.ctrl.ajax.php(95): DUPX_Ctrl_ajax::actions('validate')
+#8 C:\xampp\htdocs\Alineshop\backup\dup-installer\main.installer.php(56): DUPX_Ctrl_ajax::controller()
+#9 {main}
+
+LOG-TIME[DELTA:   0.07627]  MESSAGE:TEST "Host Connection" RESULT: failed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Version" RESULT: skip
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Engine Support" RESULT: skip
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database GTID Mode" RESULT: skip
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Privileges: User Visibility" RESULT: skip
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Privileges: User Resources" RESULT: skip
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: User Table Access" RESULT: skip
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: skip
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: skip
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and Collation Support" RESULT: skip
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: skip
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Prefix too long" RESULT: skip
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.28522]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Alineshop/backup"
+--------------------------------------
+LOG-TIME[DELTA:   0.06753]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00084]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.02320]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.06416]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00108]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.02554]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.11513]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.01475]  MESSAGE:TEST "Create New Database" RESULT: passed
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00131]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00269]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: skip
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00337]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.07797]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00161]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00348]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: hard warning
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00308]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: skip
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00020]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00721]  MESSAGE:TEST "Database cleanup" RESULT: passed
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Alineshop/backup"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 03:54:51
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Baby Shoes"
+HOME URL NEW________: "http://localhost:8080/Alineshop/backup"
+SITE URL NEW________: "http://localhost:8080/Alineshop/backup/"
+CONTENT URL NEW_____: "http://localhost:8080/Alineshop/backup/wp-content"
+UPLOAD URL NEW______: "http://localhost:8080/Alineshop/backup/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost:8080/Alineshop/backup/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost:8080/Alineshop/backup/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/Alineshop/backup"
+SITE PATH NEW_______: "C:/xampp/htdocs/Alineshop/backup/"
+CONTENT PATH NEW____: "C:/xampp/htdocs/Alineshop/backup/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/Alineshop/backup/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/Alineshop/backup/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/Alineshop/backup/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/Alineshop/backup/dup-installer"
+	FILE: "C:/xampp/htdocs/Alineshop/backup/20230322_babyshoes_[HASH]_20230322154722_installer-backup.php"
+	FILE: "C:/xampp/htdocs/Alineshop/backup/20230322_babyshoes_[HASH]_20230322154722_archive.zip"
+	FILE: "C:/xampp/htdocs/Alineshop/backup/installer.php"
+	FILE: "C:/xampp/htdocs/Alineshop/backup/dup-installer-bootlog__99df7ef-22154722.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230322_babyshoes_[HASH]_20230322154722_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0083 sec. - Files processed: 6,908 of 26,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6908
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Alineshop/backup"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0104 sec. - Files processed: 15,553 of 26,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15553
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Alineshop/backup"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0063 sec. - Files processed: 23,982 of 26,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 23982
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/Alineshop/backup"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 26717
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 03:55:08 - RUNTIME: 17.1864 sec. - Files processed: 26,111 of 26,111
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 03:55:08
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_actionscheduler_actions"______________________[ROWS:     347] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_actions]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_claims]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_groups]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:    1031] [EXTRACT|REPLACE] [INST NAME: wp_actionscheduler_logs]
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_gla_attribute_mapping_rules"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gla_attribute_mapping_rules]
+TABLE "wp_gla_budget_recommendations"___________________[ROWS:    4230] [EXTRACT|REPLACE] [INST NAME: wp_gla_budget_recommendations]
+TABLE "wp_gla_merchant_issues"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gla_merchant_issues]
+TABLE "wp_gla_shipping_rates"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gla_shipping_rates]
+TABLE "wp_gla_shipping_times"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_gla_shipping_times]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_mailpoet_automations"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_automations]
+TABLE "wp_mailpoet_automation_runs"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_automation_runs]
+TABLE "wp_mailpoet_automation_run_logs"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_automation_run_logs]
+TABLE "wp_mailpoet_automation_triggers"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_automation_triggers]
+TABLE "wp_mailpoet_automation_versions"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_automation_versions]
+TABLE "wp_mailpoet_custom_fields"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_custom_fields]
+TABLE "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_dynamic_segment_filters]
+TABLE "wp_mailpoet_feature_flags"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_feature_flags]
+TABLE "wp_mailpoet_forms"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_forms]
+TABLE "wp_mailpoet_log"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_log]
+TABLE "wp_mailpoet_migrations"__________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_migrations]
+TABLE "wp_mailpoet_newsletters"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletters]
+TABLE "wp_mailpoet_newsletter_links"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_links]
+TABLE "wp_mailpoet_newsletter_option"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_option]
+TABLE "wp_mailpoet_newsletter_option_fields"____________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_option_fields]
+TABLE "wp_mailpoet_newsletter_posts"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_posts]
+TABLE "wp_mailpoet_newsletter_segment"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_segment]
+TABLE "wp_mailpoet_newsletter_templates"________________[ROWS:      76] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_newsletter_templates]
+TABLE "wp_mailpoet_scheduled_tasks"_____________________[ROWS:      33] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_scheduled_tasks]
+TABLE "wp_mailpoet_scheduled_task_subscribers"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_scheduled_task_subscribers]
+TABLE "wp_mailpoet_segments"____________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_segments]
+TABLE "wp_mailpoet_sending_queues"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_sending_queues]
+TABLE "wp_mailpoet_settings"____________________________[ROWS:      16] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_settings]
+TABLE "wp_mailpoet_statistics_bounces"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_bounces]
+TABLE "wp_mailpoet_statistics_clicks"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_clicks]
+TABLE "wp_mailpoet_statistics_forms"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_forms]
+TABLE "wp_mailpoet_statistics_newsletters"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_newsletters]
+TABLE "wp_mailpoet_statistics_opens"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_opens]
+TABLE "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_unsubscribes]
+TABLE "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_statistics_woocommerce_purchases]
+TABLE "wp_mailpoet_stats_notifications"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_stats_notifications]
+TABLE "wp_mailpoet_subscribers"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_subscribers]
+TABLE "wp_mailpoet_subscriber_custom_field"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_subscriber_custom_field]
+TABLE "wp_mailpoet_subscriber_ips"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_subscriber_ips]
+TABLE "wp_mailpoet_subscriber_segment"__________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_subscriber_segment]
+TABLE "wp_mailpoet_subscriber_tag"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_subscriber_tag]
+TABLE "wp_mailpoet_tags"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_tags]
+TABLE "wp_mailpoet_user_agents"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_user_agents]
+TABLE "wp_mailpoet_user_flags"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_mailpoet_user_flags]
+TABLE "wp_options"______________________________________[ROWS:     454] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:     435] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:     113] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_termmeta"_____________________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_term_relationships"___________________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:      18] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_usermeta"_____________________________________[ROWS:      37] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:      49] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_notes]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:      57] [EXTRACT|REPLACE] [INST NAME: wp_wc_admin_note_actions]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_wc_category_lookup]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_customer_lookup]
+TABLE "wp_wc_download_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_download_log]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_coupon_lookup]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_product_lookup]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_stats]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_order_tax_lookup]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_attributes_lookup]
+TABLE "wp_wc_product_download_directories"______________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_download_directories]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wp_wc_product_meta_lookup]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_rate_limits]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_reserved_stock]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_wc_tax_rate_classes]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_wc_webhooks]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_api_keys]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_attribute_taxonomies]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_downloadable_product_permissions]
+TABLE "wp_woocommerce_log"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_log]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_itemmeta]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_order_items]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokenmeta]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_payment_tokens]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_sessions]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zones]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_locations]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_shipping_zone_methods]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rates]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_woocommerce_tax_rate_locations]
+TABLE "wp_yoast_indexable"______________________________[ROWS:      27] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:      25] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable_hierarchy]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:      23] [EXTRACT|REPLACE] [INST NAME: wp_yoast_migrations]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_yoast_primary_term]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:      17] [EXTRACT|REPLACE] [INST NAME: wp_yoast_seo_links]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.30 -- Build Server: 10.4.25
+FILE SIZE:	dup-database__[HASH].sql (4.24MB)
+TIMEOUT:	5000
+MAXPACK:	67108864
+SQLMODE-GLOBAL:	STRICT_TRANS_TABLES,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+GLOBAL RULES ADDED: INVALID CHARSETS
+GLOBAL RULES ADDED: INVALID COLLATIONS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_0900_ai_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_0900_ai_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	818
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_actionscheduler_actions"______________________[ROWS:   347]
+TABLE "wp_actionscheduler_claims"_______________________[ROWS:     0]
+TABLE "wp_actionscheduler_groups"_______________________[ROWS:     7]
+TABLE "wp_actionscheduler_logs"_________________________[ROWS:  1031]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     1]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     1]
+TABLE "wp_gla_attribute_mapping_rules"__________________[ROWS:     0]
+TABLE "wp_gla_budget_recommendations"___________________[ROWS:  4230]
+TABLE "wp_gla_merchant_issues"__________________________[ROWS:     0]
+TABLE "wp_gla_shipping_rates"___________________________[ROWS:     0]
+TABLE "wp_gla_shipping_times"___________________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_mailpoet_automation_run_logs"_________________[ROWS:     0]
+TABLE "wp_mailpoet_automation_runs"_____________________[ROWS:     0]
+TABLE "wp_mailpoet_automation_triggers"_________________[ROWS:     0]
+TABLE "wp_mailpoet_automation_versions"_________________[ROWS:     0]
+TABLE "wp_mailpoet_automations"_________________________[ROWS:     0]
+TABLE "wp_mailpoet_custom_fields"_______________________[ROWS:     0]
+TABLE "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:     0]
+TABLE "wp_mailpoet_feature_flags"_______________________[ROWS:     0]
+TABLE "wp_mailpoet_forms"_______________________________[ROWS:     0]
+TABLE "wp_mailpoet_log"_________________________________[ROWS:     0]
+TABLE "wp_mailpoet_migrations"__________________________[ROWS:     5]
+TABLE "wp_mailpoet_newsletter_links"____________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_option"___________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_option_fields"____________[ROWS:    24]
+TABLE "wp_mailpoet_newsletter_posts"____________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_segment"__________________[ROWS:     0]
+TABLE "wp_mailpoet_newsletter_templates"________________[ROWS:    76]
+TABLE "wp_mailpoet_newsletters"_________________________[ROWS:     0]
+TABLE "wp_mailpoet_scheduled_task_subscribers"__________[ROWS:     0]
+TABLE "wp_mailpoet_scheduled_tasks"_____________________[ROWS:    33]
+TABLE "wp_mailpoet_segments"____________________________[ROWS:     3]
+TABLE "wp_mailpoet_sending_queues"______________________[ROWS:     0]
+TABLE "wp_mailpoet_settings"____________________________[ROWS:    16]
+TABLE "wp_mailpoet_statistics_bounces"__________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_clicks"___________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_forms"____________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_newsletters"______________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_opens"____________________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:     0]
+TABLE "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0]
+TABLE "wp_mailpoet_stats_notifications"_________________[ROWS:     0]
+TABLE "wp_mailpoet_subscriber_custom_field"_____________[ROWS:     0]
+TABLE "wp_mailpoet_subscriber_ips"______________________[ROWS:     0]
+TABLE "wp_mailpoet_subscriber_segment"__________________[ROWS:     1]
+TABLE "wp_mailpoet_subscriber_tag"______________________[ROWS:     0]
+TABLE "wp_mailpoet_subscribers"_________________________[ROWS:     1]
+TABLE "wp_mailpoet_tags"________________________________[ROWS:     0]
+TABLE "wp_mailpoet_user_agents"_________________________[ROWS:     0]
+TABLE "wp_mailpoet_user_flags"__________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   454]
+TABLE "wp_postmeta"_____________________________________[ROWS:   435]
+TABLE "wp_posts"________________________________________[ROWS:   113]
+TABLE "wp_term_relationships"___________________________[ROWS:    25]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    18]
+TABLE "wp_termmeta"_____________________________________[ROWS:     4]
+TABLE "wp_terms"________________________________________[ROWS:    18]
+TABLE "wp_usermeta"_____________________________________[ROWS:    37]
+TABLE "wp_users"________________________________________[ROWS:     1]
+TABLE "wp_wc_admin_note_actions"________________________[ROWS:    57]
+TABLE "wp_wc_admin_notes"_______________________________[ROWS:    49]
+TABLE "wp_wc_category_lookup"___________________________[ROWS:     3]
+TABLE "wp_wc_customer_lookup"___________________________[ROWS:     0]
+TABLE "wp_wc_download_log"______________________________[ROWS:     0]
+TABLE "wp_wc_order_coupon_lookup"_______________________[ROWS:     0]
+TABLE "wp_wc_order_product_lookup"______________________[ROWS:     0]
+TABLE "wp_wc_order_stats"_______________________________[ROWS:     0]
+TABLE "wp_wc_order_tax_lookup"__________________________[ROWS:     0]
+TABLE "wp_wc_product_attributes_lookup"_________________[ROWS:     0]
+TABLE "wp_wc_product_download_directories"______________[ROWS:     2]
+TABLE "wp_wc_product_meta_lookup"_______________________[ROWS:     9]
+TABLE "wp_wc_rate_limits"_______________________________[ROWS:     0]
+TABLE "wp_wc_reserved_stock"____________________________[ROWS:     0]
+TABLE "wp_wc_tax_rate_classes"__________________________[ROWS:     2]
+TABLE "wp_wc_webhooks"__________________________________[ROWS:     0]
+TABLE "wp_woocommerce_api_keys"_________________________[ROWS:     0]
+TABLE "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0]
+TABLE "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0]
+TABLE "wp_woocommerce_log"______________________________[ROWS:     0]
+TABLE "wp_woocommerce_order_itemmeta"___________________[ROWS:     0]
+TABLE "wp_woocommerce_order_items"______________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0]
+TABLE "wp_woocommerce_payment_tokens"___________________[ROWS:     0]
+TABLE "wp_woocommerce_sessions"_________________________[ROWS:     1]
+TABLE "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0]
+TABLE "wp_woocommerce_shipping_zones"___________________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0]
+TABLE "wp_woocommerce_tax_rates"________________________[ROWS:     0]
+TABLE "wp_yoast_indexable"______________________________[ROWS:    27]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:    25]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:    23]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:     6]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:    17]
+
+INSERT DATA RUNTIME: 2.0437 sec.
+STEP-2 COMPLETE @ 03:55:10 - RUNTIME: 2.0438 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: C:/xampp/htdocs/Alineshop REPLACE: C:/xampp/htdocs/Alineshop/backup/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: C:\xampp\htdocs\Alineshop REPLACE: C:/xampp/htdocs/Alineshop/backup/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: C:/xampp/htdocs/Alineshop REPLACE: C:/xampp/htdocs/Alineshop/backup [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://localhost:8080/Alineshop REPLACE: http://localhost:8080/Alineshop/backup/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://localhost:8080/Alineshop REPLACE: http://localhost:8080/Alineshop/backup [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 03:55:10
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:   118]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:   347][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:  1031][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_actionscheduler_logs][1]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_comments][0]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_attribute_mapping_rules"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_budget_recommendations"___________________[ROWS:  4230][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][1]
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][2]
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][3]
+	CHUNK ACTION: CURRENT [search_replace][wp_gla_budget_recommendations][4]
+
+EVALUATE TABLE: "wp_gla_merchant_issues"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_rates"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_gla_shipping_times"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_automations"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_automation_runs"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_automation_run_logs"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_automation_triggers"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_automation_versions"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_custom_fields"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_dynamic_segment_filters"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_feature_flags"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_forms"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_log"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_migrations"__________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_migrations][0]
+
+EVALUATE TABLE: "wp_mailpoet_newsletters"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_links"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_option_fields"____________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_newsletter_option_fields][0]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_posts"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_segment"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_newsletter_templates"________________[ROWS:    76][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_newsletter_templates][0]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_tasks"_____________________[ROWS:    33][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_scheduled_tasks][0]
+
+EVALUATE TABLE: "wp_mailpoet_scheduled_task_subscribers"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_segments"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_segments][0]
+
+EVALUATE TABLE: "wp_mailpoet_sending_queues"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_settings"____________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_settings][0]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_bounces"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_clicks"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_forms"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_newsletters"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_opens"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_unsubscribes"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_statistics_woocommerce_purchases"____[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_stats_notifications"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscribers"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_subscribers][0]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_custom_field"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_ips"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_segment"__________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_mailpoet_subscriber_segment][0]
+
+EVALUATE TABLE: "wp_mailpoet_subscriber_tag"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_tags"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_user_agents"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_mailpoet_user_flags"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   336][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   435][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   113][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    25][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    18][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    37][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    49][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    57][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     3][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_attributes_lookup"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_download_directories"______________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_download_directories][0]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wp_wc_rate_limits"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_indexable][0]
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:    25][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_migrations][0]
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_primary_term][0]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:    17][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Alineshop" =======================> "C:/xampp/htdocs/Alineshop/backup"
+	SEARCH[urlnd]  2:"http://localhost:8080/Alineshop" =================> "http://localhost:8080/Alineshop/backup"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_seo_links][0]
+--------------------------------------
+SCANNED:	Tables:96 	|	 Rows:6930 	|	 Cells:41588 
+UPDATED:	Tables:11 	|	 Rows:245 	|	 Cells:293 
+ERRORS:		0 
+RUNTIME:	0.858400 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/Alineshop/backup/wp-config.php
+New htaccess file created:C:/xampp/htdocs/Alineshop/backup/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://localhost:8080/Alineshop/backup/"
+	UPDATE DB_NAME ""new_alineshop""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 03:55:11 - RUNTIME: 0.9620 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[NOTICE] Plugin Jetpack disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Jetpack has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate Jetpack after you login.
+	SECTIONS: plugins
+
+====================================
+LOG-TIME[C:\xampp\htdocs\Alineshop\backup\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.07658]  MESSAGE:END RENDER PAGE

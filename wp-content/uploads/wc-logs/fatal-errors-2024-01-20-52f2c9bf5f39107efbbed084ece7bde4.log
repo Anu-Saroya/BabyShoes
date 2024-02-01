@@ -1,0 +1,16 @@
+2024-01-20T15:24:36+00:00 CRITICAL Uncaught TypeError: method_exists(): Argument #1 ($object_or_class) must be of type object|string, null given in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php:130
+Stack trace:
+#0 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(130): method_exists()
+#1 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php(81): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments::is_connected()
+#2 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskList.php(240): Automattic\WooCommerce\Admin\Features\OnboardingTasks\Tasks\WooCommercePayments->is_complete()
+#3 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(445): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskList->is_complete()
+#4 /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/TaskLists.php(467): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::setup_tasks_remaining()
+#5 /var/www/babyshoes/wp-includes/class-wp-hook.php(308): Automattic\WooCommerce\Admin\Features\OnboardingTasks\TaskLists::menu_task_count()
+#6 /var/www/babyshoes/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#7 /var/www/babyshoes/wp-includes/plugin.php(517): WP_Hook->do_action()
+#8 /var/www/babyshoes/wp-admin/includes/menu.php(155): do_action()
+#9 /var/www/babyshoes/wp-admin/menu.php(428): require_once('...')
+#10 /var/www/babyshoes/wp-admin/admin.php(158): require('...')
+#11 {main}
+  thrown in /var/www/babyshoes/wp-content/plugins/woocommerce/src/Admin/Features/OnboardingTasks/Tasks/WooCommercePayments.php on line 130
+

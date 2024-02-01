@@ -1,0 +1,32 @@
+/*
+Theme Name: My Storefront ChildTheme
+Theme URI: https://example.com/storefront
+Description: Storefront Child Theme
+Author: Aline Costa
+Author URI: https://example.com
+Template: storefront
+Version: 1.0.0
+License: GNU General Publich Licence v2 or later
+License URI: HTTP://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-column, responsive-layout 
+*/
+
+/* --- Aline Costa Theme customization starts here --- */
+h1 {
+    color: #f15bb5;
+    font-style: oblique;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.has-text-align-center {
+    color: HotPink;
+    font-style:italic;
+    font-weight: 900;
+}
+
+.homeimage {
+    border: 10px solid BlueViolet;
+    border-radius: 20%;
+    box-shadow: 0 0 2px 10px #f15bb5;
+}
